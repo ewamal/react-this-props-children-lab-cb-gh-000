@@ -29,7 +29,7 @@ describe('<Invitation />', () => {
 
 describe('<ThemedDecorations />', () => {
   const wrapper = shallow(
-    <ThemedDecorations theme="heaven">
+    <ThemedDecorations theme="hell">
       <p>A decoration</p>
       <p>Some other decoration</p>
       <p>A last decoration</p>
