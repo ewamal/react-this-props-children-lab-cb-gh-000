@@ -6,7 +6,7 @@ export default class ThemedParty extends React.Component {
     // eslint-disable-next-line
     const childrenWithExtraProp = React.Children.map(this.props.children, child => {
       return React.cloneElement(child, {
-        className: child.props.theme
+        className: this.props.theme
       });
     });
 
