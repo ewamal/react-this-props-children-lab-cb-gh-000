@@ -45,7 +45,7 @@ describe('<ThemedDecorations />', () => {
       wrapper
         .children()
         .map(element => element.prop('className'))
-        .every(prop => prop === 'heaven')
+        .every(prop => prop === 'hell')
     ).to.be.true;
   });
 });
